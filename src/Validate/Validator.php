@@ -1,12 +1,12 @@
 <?php
 
-namespace EasySwoole\Migrate\Validate;
+namespace Linkunyuan\EsMigrate\Validate;
 
-use EasySwoole\Migrate\Utility\Util;
+use Linkunyuan\EsMigrate\Utility\Util;
 
 /**
  * Class Validator
- * @package EasySwoole\Migrate\Validate
+ * @package Linkunyuan\EsMigrate\Validate
  * @author heelie.hj@gmail.com
  * @date 2020/8/22 21:29:54
  */

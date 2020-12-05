@@ -1,10 +1,10 @@
 <?php
 
-namespace EasySwoole\Migrate\Databases;
+namespace Linkunyuan\EsMigrate\Databases;
 
-use EasySwoole\Migrate\Databases\AbstractInterface\DatabaseAbstract;
-use EasySwoole\Migrate\Databases\AbstractInterface\DatabaseInterface;
-use EasySwoole\Migrate\Databases\Database\Mysql;
+use Linkunyuan\EsMigrate\Databases\AbstractInterface\DatabaseAbstract;
+use Linkunyuan\EsMigrate\Databases\AbstractInterface\DatabaseInterface;
+use Linkunyuan\EsMigrate\Databases\Database\Mysql;
 use EasySwoole\Spl\SplArray;
 use ReflectionClass;
 use RuntimeException;
@@ -13,7 +13,7 @@ use Throwable;
 /**
  * Database Facade
  * Class DatabaseFacade
- * @package EasySwoole\Migrate\Databases
+ * @package Linkunyuan\EsMigrate\Databases
  * @author heelie.hj@gmail.com
  * @date 2020/06/30 15:56:21
  */

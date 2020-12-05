@@ -1,12 +1,12 @@
 <?php
 
-namespace EasySwoole\Migrate\Databases\AbstractInterface;
+namespace Linkunyuan\EsMigrate\Databases\AbstractInterface;
 
 use EasySwoole\Spl\SplArray;
 
 /**
  * Interface DatabaseInterface
- * @package EasySwoole\Migrate\Databases\AbstractInterface
+ * @package Linkunyuan\EsMigrate\Databases\AbstractInterface
  * @author heelie.hj@gmail.com
  * @date 2020/8/22 21:26:25
  */

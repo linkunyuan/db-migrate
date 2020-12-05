@@ -1,6 +1,6 @@
 <?php
 
-namespace EasySwoole\Migrate\Config;
+namespace Linkunyuan\EsMigrate\Config;
 
 class Config
 {

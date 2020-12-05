@@ -1,14 +1,14 @@
 <?php
 
-namespace EasySwoole\Migrate\Command\AbstractInterface;
+namespace Linkunyuan\EsMigrate\Command\AbstractInterface;
 
 use EasySwoole\Command\AbstractInterface\CommandHelpInterface;
 use EasySwoole\Command\AbstractInterface\CommandInterface;
-use EasySwoole\Migrate\Utility\CommandManager;
+use Linkunyuan\EsMigrate\Utility\CommandManager;
 
 /**
  * Class CommandAbstract
- * @package EasySwoole\Migrate\Command\AbstractInterface
+ * @package Linkunyuan\EsMigrate\Command\AbstractInterface
  * @author heelie.hj@gmail.com
  * @date 2020/9/19 00:05:27
  */

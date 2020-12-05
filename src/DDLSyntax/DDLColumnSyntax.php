@@ -1,13 +1,13 @@
 <?php
 
-namespace EasySwoole\Migrate\DDLSyntax;
+namespace Linkunyuan\EsMigrate\DDLSyntax;
 
 use EasySwoole\DDL\Enum\DataType;
-use EasySwoole\Migrate\Databases\DatabaseFacade;
+use Linkunyuan\EsMigrate\Databases\DatabaseFacade;
 
 /**
  * Class DDLColumnSyntax
- * @package EasySwoole\Migrate\DDLSyntax
+ * @package Linkunyuan\EsMigrate\DDLSyntax
  * @author heelie.hj@gmail.com
  * @date 2020/8/22 21:12:14
  */

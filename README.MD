@@ -10,7 +10,7 @@ forked from Heelie/db-migrate
 > bootstrap.php
 
 ```php
-\EasySwoole\Command\CommandManager::getInstance()->addCommand(new \EasySwoole\Migrate\Command\MigrateCommand());
+\EasySwoole\Command\CommandManager::getInstance()->addCommand(new \linkunyuan\EsMigrate\Command\MigrateCommand())
 ```
 
 在dev中增加配置信息

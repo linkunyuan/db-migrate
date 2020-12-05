@@ -1,13 +1,13 @@
 <?php
 
-namespace EasySwoole\Migrate\DDLSyntax;
+namespace Linkunyuan\EsMigrate\DDLSyntax;
 
-use EasySwoole\Migrate\Databases\DatabaseFacade;
-use EasySwoole\Migrate\Utility\Util;
+use Linkunyuan\EsMigrate\Databases\DatabaseFacade;
+use Linkunyuan\EsMigrate\Utility\Util;
 
 /**
  * Class DDLIndexSyntax
- * @package EasySwoole\Migrate\DDLSyntax
+ * @package Linkunyuan\EsMigrate\DDLSyntax
  * @author heelie.hj@gmail.com
  * @date 2020/8/24 23:49:54
  */

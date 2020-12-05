@@ -1,10 +1,10 @@
 <?php
 
-namespace EasySwoole\Migrate\DDLSyntax;
+namespace Linkunyuan\EsMigrate\DDLSyntax;
 
 use EasySwoole\DDL\Blueprint\Create\Table;
-use EasySwoole\Migrate\Databases\DatabaseFacade;
-use EasySwoole\Migrate\Utility\Util;
+use Linkunyuan\EsMigrate\Databases\DatabaseFacade;
+use Linkunyuan\EsMigrate\Utility\Util;
 
 class DDLForeignSyntax
 {

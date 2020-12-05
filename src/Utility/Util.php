@@ -1,16 +1,16 @@
 <?php
 
-namespace EasySwoole\Migrate\Utility;
+namespace Linkunyuan\EsMigrate\Utility;
 
 use DateTime;
 use DateTimeZone;
-use EasySwoole\Migrate\Config\Config;
-use EasySwoole\Migrate\Validate\Validator;
+use Linkunyuan\EsMigrate\Config\Config;
+use Linkunyuan\EsMigrate\Validate\Validator;
 use Throwable;
 
 /**
  * Class Util
- * @package EasySwoole\Migrate\Utility
+ * @package Linkunyuan\EsMigrate\Utility
  * @author heelie.hj@gmail.com
  * @date 2020/8/22 21:28:02
  */

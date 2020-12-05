@@ -1,8 +1,8 @@
 <?php
 
-namespace EasySwoole\Migrate\Databases\AbstractInterface;
+namespace Linkunyuan\EsMigrate\Databases\AbstractInterface;
 
-use EasySwoole\Migrate\Utility\CommandManager;
+use Linkunyuan\EsMigrate\Utility\CommandManager;
 use EasySwoole\EasySwoole\Config;
 use EasySwoole\EasySwoole\Core;
 use EasySwoole\Spl\SplArray;
@@ -10,7 +10,7 @@ use RuntimeException;
 
 /**
  * Class DatabaseAbstract
- * @package EasySwoole\Migrate\Databases\AbstractInterface
+ * @package Linkunyuan\EsMigrate\Databases\AbstractInterface
  * @author heelie.hj@gmail.com
  * @date 2020/8/22 21:26:20
  */

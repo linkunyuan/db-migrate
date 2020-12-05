@@ -1,6 +1,6 @@
 <?php
 
-namespace EasySwoole\Migrate\Command;
+namespace Linkunyuan\EsMigrate\Command;
 
 use EasySwoole\Command\AbstractInterface\CommandHelpInterface;
 use EasySwoole\Command\Color;
@@ -9,16 +9,16 @@ use EasySwoole\DDL\Blueprint\Create\Table as CreateTable;
 use EasySwoole\DDL\DDLBuilder;
 use EasySwoole\DDL\Enum\Character;
 use EasySwoole\DDL\Enum\Engine;
-use EasySwoole\Migrate\Command\AbstractInterface\CommandAbstract;
-use EasySwoole\Migrate\Command\Migrate\CreateCommand;
-use EasySwoole\Migrate\Command\Migrate\GenerateCommand;
-use EasySwoole\Migrate\Command\Migrate\ResetCommand;
-use EasySwoole\Migrate\Command\Migrate\RollbackCommand;
-use EasySwoole\Migrate\Command\Migrate\RunCommand;
-use EasySwoole\Migrate\Command\Migrate\SeedCommand;
-use EasySwoole\Migrate\Command\Migrate\StatusCommand;
-use EasySwoole\Migrate\Config\Config;
-use EasySwoole\Migrate\Databases\DatabaseFacade;
+use Linkunyuan\EsMigrate\Command\AbstractInterface\CommandAbstract;
+use Linkunyuan\EsMigrate\Command\Migrate\CreateCommand;
+use Linkunyuan\EsMigrate\Command\Migrate\GenerateCommand;
+use Linkunyuan\EsMigrate\Command\Migrate\ResetCommand;
+use Linkunyuan\EsMigrate\Command\Migrate\RollbackCommand;
+use Linkunyuan\EsMigrate\Command\Migrate\RunCommand;
+use Linkunyuan\EsMigrate\Command\Migrate\SeedCommand;
+use Linkunyuan\EsMigrate\Command\Migrate\StatusCommand;
+use Linkunyuan\EsMigrate\Config\Config;
+use Linkunyuan\EsMigrate\Databases\DatabaseFacade;
 use InvalidArgumentException;
 use ReflectionClass;
 use ReflectionException;
@@ -27,7 +27,7 @@ use Throwable;
 
 /**
  * Class MigrateCommand
- * @package EasySwoole\Migrate\Command
+ * @package Linkunyuan\EsMigrate\Command
  * @author heelie.hj@gmail.com
  * @date 2020/9/4 22:16:48
  */

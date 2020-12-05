@@ -1,13 +1,13 @@
 <?php
 
-namespace EasySwoole\Migrate\Utility;
+namespace Linkunyuan\EsMigrate\Utility;
 
 use EasySwoole\Component\Singleton;
 use EasySwoole\Command\CommandManager as BaseCommandManager;
 
 /**
  * Class CommandManager
- * @package EasySwoole\Migrate\Utility
+ * @package Linkunyuan\EsMigrate\Utility
  * @author heelie.hj@gmail.com
  * @date 2020/9/18 18:53:24
  */

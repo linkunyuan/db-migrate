@@ -1,16 +1,16 @@
 <?php
 
-namespace EasySwoole\Migrate\Command\Migrate;
+namespace Linkunyuan\EsMigrate\Command\Migrate;
 
 use EasySwoole\Command\AbstractInterface\CommandHelpInterface;
 use EasySwoole\Command\AbstractInterface\CommandInterface;
 use EasySwoole\Command\AbstractInterface\ResultInterface;
 use EasySwoole\Command\Color;
-use EasySwoole\Migrate\Command\AbstractInterface\CommandAbstract;
-use EasySwoole\Migrate\Command\MigrateCommand;
-use EasySwoole\Migrate\Config\Config;
-use EasySwoole\Migrate\Utility\Util;
-use EasySwoole\Migrate\Validate\Validator;
+use Linkunyuan\EsMigrate\Command\AbstractInterface\CommandAbstract;
+use Linkunyuan\EsMigrate\Command\MigrateCommand;
+use Linkunyuan\EsMigrate\Config\Config;
+use Linkunyuan\EsMigrate\Utility\Util;
+use Linkunyuan\EsMigrate\Validate\Validator;
 use EasySwoole\Utility\File;
 use Exception;
 use InvalidArgumentException;
@@ -18,7 +18,7 @@ use Throwable;
 
 /**
  * Class CreateCommand
- * @package EasySwoole\Migrate\Command\Migrate
+ * @package Linkunyuan\EsMigrate\Command\Migrate
  * @author heelie.hj@gmail.com
  * @date 2020/9/19 00:30:50
  */

@@ -1,12 +1,12 @@
 <?php
 
-namespace EasySwoole\Migrate\DDLSyntax;
+namespace Linkunyuan\EsMigrate\DDLSyntax;
 
-use EasySwoole\Migrate\Databases\DatabaseFacade;
+use Linkunyuan\EsMigrate\Databases\DatabaseFacade;
 
 /**
  * Class DDLTableSyntax
- * @package EasySwoole\Migrate\DDLSyntax
+ * @package Linkunyuan\EsMigrate\DDLSyntax
  * @author heelie.hj@gmail.com
  * @date 2020/8/22 00:58:27
  */

@@ -1,15 +1,15 @@
 <?php
 
-namespace EasySwoole\Migrate\Databases\Database;
+namespace Linkunyuan\EsMigrate\Databases\Database;
 
-use EasySwoole\Migrate\Databases\AbstractInterface\DatabaseInterface;
+use Linkunyuan\EsMigrate\Databases\AbstractInterface\DatabaseInterface;
 use EasySwoole\Spl\SplArray;
 use mysqli;
 use RuntimeException;
 
 /**
  * Class Mysql
- * @package EasySwoole\Migrate\Databases\Database
+ * @package Linkunyuan\EsMigrate\Databases\Database
  * @author heelie.hj@gmail.com
  * @date 2020/8/22 21:21:35
  */
