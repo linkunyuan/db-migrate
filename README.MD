@@ -1,4 +1,5 @@
 # db-migrate
+forked from Heelie/db-migrate
 
 参照Laravel开发的easyswoole数据库版本迁移工具
 
@@ -19,7 +20,7 @@
 ```php
 return [
     ......
-    'DATABASE' => [
+    'MYSQL' => [
         'default'=>'mysql',
         'mysql' =>[
             'host' =>'127.0.0.1',
