@@ -1,5 +1,5 @@
 {
-    "name": "linkunyuan/db-migrate",
+    "name": "linkunyuan/es-migrate",
     "type": "library",
     "description": "An efficient swoole framework",
     "keywords": [
